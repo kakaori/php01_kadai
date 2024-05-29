@@ -9,12 +9,13 @@ $community = $_POST['community'];
 $improvement = $_POST['improvement'];
 $thanks = $_POST['thanks'];
 $message = $_POST['message'];
+$cosmos = $_POST['cosmos'];
 $km = ',';
 
 $date = date('Y-m-d H:i:s');
 
 //書き込む文字を作成
-$str = $date.$km.$name.$km.$credo.$km.$community.$km.$improvement.$km.$thanks.$km.$message;
+$str = $date.$km.$name.$km.$credo.$km.$community.$km.$improvement.$km.$thanks.$km.$message.$km.$cosmos;
 
 //file書き込み
 $file = fopen('data/data.txt','a'); //ファイルOPEN
@@ -118,6 +119,15 @@ fclose($file); //ファイル閉じる
           <span class="block text-sm font-bold">クラス全体の雰囲気を良くするために、どのような取り組みが有効だと思いますか？</span>
         </div>
         <p class="text-gray-600"><?php echo $message?></p>
+      </div>
+      <!-- review - end -->
+
+      <!-- review - start -->
+      <div class="flex flex-col gap-3 py-4 md:py-8">
+        <div>
+          <span class="block text-sm font-bold">コスモは燃えていますか？</span>
+        </div>
+        <p class="text-gray-600"><?php echo $cosmos?></p>
       </div>
       <!-- review - end -->
 

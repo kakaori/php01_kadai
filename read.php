@@ -52,6 +52,7 @@
             <p class="text-sm">質問３ クラスメイトに対して改善してほしい点があれば教えてください。</p>
             <p class="text-sm">質問４ クラスメイトに対して特に感謝していることや、良かった点があれば教えてください。</p>
             <p class="text-sm">質問５ クラス全体の雰囲気を良くするために、どのような取り組みが有効だと思いますか？</p>
+            <p class="text-sm">質問６ コスモは燃えていますか？</p>
         </div>
 
         <div class="w-full mx-auto overflow-auto">
@@ -72,7 +73,8 @@
         <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問２</th>
         <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問３</th>
         <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問４</th>
-        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br'>質問５</th>
+        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問５</th>
+        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br'>質問６</th>
         </tr>";
 
 
@@ -93,6 +95,7 @@
             <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[4]</td>
             <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[5]</td>
             <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[6]</td>
+            <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[7]</td>
             </tr>";
         }
         echo "</table>";

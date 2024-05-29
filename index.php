@@ -55,10 +55,10 @@
               <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="credo" value="讃えている" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>讃えている</label>
             </div>
             <div>
-              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="credo" value="普通" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>普通</label>
+              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="credo" value="はい" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>はい</label>
             </div>
             <div>
-              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="credo" value="讃えていない" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>讃えていない</label>
+              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="credo" value="Yes" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>Yes</label>
             </div>
           </div>
       </div>
@@ -71,10 +71,10 @@
               <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="community" value="している" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>している</label>
             </div>
             <div>
-              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="community" value="普通" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>普通</label>
+              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="community" value="はい" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>はい</label>
             </div>
             <div>
-              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="community" value="していない" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>していない</label>
+              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="community" value="Yes" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>Yes</label>
             </div>
           </div>
       </div>
@@ -95,6 +95,22 @@
       <div class="sm:col-span-2">
         <label for="message" class="mb-2 inline-block text-sm sm:text-base">クラス全体の雰囲気を良くするために、どのような取り組みが有効だと思いますか？</label>
         <textarea name="message" class="w-full rounded border bg-gray-50 px-3 py-2 outline-none ring-gray-300 transition duration-100 focus:ring" required></textarea>
+      </div>
+
+      <!-- コスモ -->
+      <div class="sm:col-span-2">
+        <label for="cosmos" class="mb-2 inline-block text-sm sm:text-base">コスモは燃えていますか？</label>
+          <div class="flex justify-between grid gap-x-8 gap-y-4 grid-cols-3">
+            <div>
+              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="cosmos" value="燃えている" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>燃えている</label>
+            </div>
+            <div>
+              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="cosmos" value="はい" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>はい</label>
+            </div>
+            <div>
+              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="cosmos" value="Yes" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>Yes</label>
+            </div>
+          </div>
       </div>
 
       <div class="items-center justify-between sm:col-span-2">
