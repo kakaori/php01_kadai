@@ -32,7 +32,7 @@
 
       <!-- nav - start -->
       <nav class="gap-12">
-        <a href="./read.php" class="text-lg font-semibold transition duration-100 hover:text-gray-500 active:text-gray-700">結果一覧</a>
+        <a href="./read.php" class="text-lg transition duration-100 hover:text-gray-500 active:text-gray-700">結果一覧</a>
       </nav>
       <!-- nav - end -->
 
