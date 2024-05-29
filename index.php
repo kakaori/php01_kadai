@@ -20,7 +20,7 @@
 
       <!-- nav - start -->
       <nav class="gap-12">
-        <a href="./read.php" class="text-lg transition duration-100 hover:text-gray-500 active:text-gray-700">結果一覧</a>
+        <a href="./read.php" class="text-lg transition duration-100 hover:text-gray-500 active:text-gray-700">みんなの日記</a>
       </nav>
       <!-- nav - end -->
 
@@ -33,8 +33,8 @@
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
     <!-- text - start -->
     <div class="mb-10 md:mb-16">
-      <h2 class="mb-4 text-center text-2xl font-bold md:mb-6 lg:text-3xl">LAB17 ギークへのアンケート</h2>
-
+      <h2 class="mb-4 text-center text-2xl font-bold md:mb-6 lg:text-3xl">LAB17 ギーク日記</h2>
+      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">今日も頑張ったね！今日のあなたを記録しよう。</p>
     </div>
     <!-- text - end -->
 
@@ -49,10 +49,10 @@
 
       <!-- クレド -->
       <div class="sm:col-span-2">
-        <label for="credo" class="mb-2 inline-block text-sm sm:text-base">CREDOに則り、自らのチカラでセカイを変えようとする全ての挑戦を讃えていますか？</label>
+        <label for="credo" class="mb-2 inline-block text-sm sm:text-base">CREDOに則り、自らのチカラでセカイを変えようとする全ての挑戦を讃えましたか？</label>
           <div class="flex justify-between grid gap-x-8 gap-y-4 grid-cols-3">
             <div>
-              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="credo" value="讃えている" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>讃えている</label>
+              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="credo" value="讃えた" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>讃えた</label>
             </div>
             <div>
               <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="credo" value="はい" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>はい</label>
@@ -65,10 +65,10 @@
 
       <!-- コミュニティ -->
       <div class="sm:col-span-2">
-        <label for="community" class="mb-2 inline-block text-sm sm:text-base">コミュニティの活性化に自ら貢献していますか？</label>
+        <label for="community" class="mb-2 inline-block text-sm sm:text-base">コミュニティの活性化に自ら貢献しましたか？</label>
           <div class="flex justify-between grid gap-x-8 gap-y-4 grid-cols-3">
             <div>
-              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="community" value="している" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>している</label>
+              <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="community" value="貢献した" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>貢献した</label>
             </div>
             <div>
               <label class="ring-gray-200 has-[:checked]:ring-gray-500 has-[:checked]:bg-gray-50 grid grid-cols-[5px_1fr_auto] items-center gap-6 rounded-lg p-4 ring-2 hover:bg-gray-50 cursor-pointer mb-2"><input type="radio" name="community" value="はい" class="box-content h-1.5 w-1.5 appearance-none rounded-full border-[5px] ring-1 ring-gray-950/10 checked:border-gray-500 checked:ring-gray-500" required>はい</label>
@@ -81,19 +81,19 @@
 
       <!-- 改善 -->
       <div class="sm:col-span-2">
-        <label for="improvement" class="mb-2 inline-block text-sm sm:text-base">クラスメイトに対して改善してほしい点があれば教えてください。</label>
+        <label for="improvement" class="mb-2 inline-block text-sm sm:text-base">昨日のあなたより、今日のあなたができるようになったことはなんですか？</label>
         <textarea name="improvement" class="w-full rounded border bg-gray-50 px-3 py-2 outline-none ring-gray-300 transition duration-100 focus:ring" required></textarea>
       </div>
   
       <!-- ありがとう -->
       <div class="sm:col-span-2">
-        <label for="thanks" class="mb-2 inline-block text-sm sm:text-base">クラスメイトに対して特に感謝していることや、良かった点があれば教えてください。</label>
+        <label for="thanks" class="mb-2 inline-block text-sm sm:text-base">周りの人に感謝することや、良かった点を教えてください。</label>
         <textarea name="thanks" class="w-full rounded border bg-gray-50 px-3 py-2 outline-none ring-gray-300 transition duration-100 focus:ring" required></textarea>
       </div>
 
       <!-- 取り組み -->
       <div class="sm:col-span-2">
-        <label for="message" class="mb-2 inline-block text-sm sm:text-base">クラス全体の雰囲気を良くするために、どのような取り組みが有効だと思いますか？</label>
+        <label for="message" class="mb-2 inline-block text-sm sm:text-base">明日の目標はなんですか？</label>
         <textarea name="message" class="w-full rounded border bg-gray-50 px-3 py-2 outline-none ring-gray-300 transition duration-100 focus:ring" required></textarea>
       </div>
 

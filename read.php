@@ -32,7 +32,7 @@
 
       <!-- nav - start -->
       <nav class="gap-12">
-        <a href="./read.php" class="text-lg transition duration-100 hover:text-gray-500 active:text-gray-700">結果一覧</a>
+        <a href="./read.php" class="text-lg transition duration-100 hover:text-gray-500 active:text-gray-700">みんなの日記</a>
       </nav>
       <!-- nav - end -->
 
@@ -44,14 +44,14 @@
 
 <div class="bg-white">
     <div class="mx-autolg px-4 md:px-8">
-        <h2 class="mb-4 text-center text-2xl font-bold md:mb-8 lg:text-3xl xl:mb-12">LAB17 ギークへのアンケート結果</h2>
+        <h2 class="mb-4 text-center text-2xl font-bold md:mb-8 lg:text-3xl xl:mb-12">LAB17 みんなのギーク日記</h2>
 
         <div class="mx-auto max-w-screen-sm mb-8">
-            <p class="text-sm">質問１ CREDOに則り、自らのチカラでセカイを変えようとする全ての挑戦を讃えていますか？</p>
-            <p class="text-sm">質問２ コミュニティの活性化に自ら貢献していますか？</p>
-            <p class="text-sm">質問３ クラスメイトに対して改善してほしい点があれば教えてください。</p>
-            <p class="text-sm">質問４ クラスメイトに対して特に感謝していることや、良かった点があれば教えてください。</p>
-            <p class="text-sm">質問５ クラス全体の雰囲気を良くするために、どのような取り組みが有効だと思いますか？</p>
+            <p class="text-sm">質問１ CREDOに則り、自らのチカラでセカイを変えようとする全ての挑戦を讃えましたか？</p>
+            <p class="text-sm">質問２ コミュニティの活性化に自ら貢献しましたか？</p>
+            <p class="text-sm">質問３ 昨日のあなたより、今日のあなたができるようになったことはなんですか？</p>
+            <p class="text-sm">質問４ 周りの人に感謝することや、良かった点を教えてください。</p>
+            <p class="text-sm">質問５ 明日の目標はなんですか？</p>
             <p class="text-sm">質問６ コスモは燃えていますか？</p>
         </div>
 
@@ -65,16 +65,16 @@
         //fopenでファイルを開く(rは読み込みモード)
         $fp = fopen($filename, 'r');
 
-        echo "<table class='table-auto w-full text-left whitespace-no-wrap'>";
+        echo "<table class='mb-4 table-auto w-full text-left whitespace-no-wrap'>";
         echo "<tr>
-        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl'>回答日時</th>
-        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>ニックネーム</th>
-        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問１</th>
-        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問２</th>
-        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問３</th>
-        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問４</th>
-        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問５</th>
-        <th class='px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br'>質問６</th>
+        <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl'>回答日時</th>
+        <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>ニックネーム</th>
+        <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問１</th>
+        <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問２</th>
+        <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問３</th>
+        <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問４</th>
+        <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>質問５</th>
+        <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br'>質問６</th>
         </tr>";
 
 

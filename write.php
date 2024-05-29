@@ -48,7 +48,7 @@ fclose($file); //ファイル閉じる
 
       <!-- nav - start -->
       <nav class="gap-12">
-        <a href="./read.php" class="text-lg transition duration-100 hover:text-gray-500 active:text-gray-700">結果一覧</a>
+        <a href="./read.php" class="text-lg transition duration-100 hover:text-gray-500 active:text-gray-700">みんなの日記</a>
       </nav>
       <!-- nav - end -->
 
@@ -59,7 +59,7 @@ fclose($file); //ファイル閉じる
 
 <div class="bg-white">
   <div class="mx-auto max-w-screen-md px-4 md:px-8">
-    <p class="mb-4 text-center text-xl font-bold md:mb-6 lg:text-xl">LAB17 ギークへのアンケート</p>
+    <p class="mb-4 text-center text-xl font-bold md:mb-6 lg:text-xl">LAB17 ギーク日記</p>
     <h2 class="mb-4 text-center text-2xl font-bold md:mb-8 lg:text-3xl xl:mb-12">送信が完了しました</h2>
     <span class="block text-sm text-gray-500">回答日時：<?php echo $date?></span>
 
@@ -76,7 +76,7 @@ fclose($file); //ファイル閉じる
       <!-- review - start -->
       <div class="flex flex-col gap-3 py-4 md:py-8">
         <div>
-          <span class="block text-sm font-bold">CREDOに則り、自らのチカラでセカイを変えようとする全ての挑戦を讃えていますか？</span>
+          <span class="block text-sm font-bold">CREDOに則り、自らのチカラでセカイを変えようとする全ての挑戦を讃えましたか？</span>
         </div>
 
         <p class="text-gray-600"><?php echo $credo?></p>
@@ -86,7 +86,7 @@ fclose($file); //ファイル閉じる
       <!-- review - start -->
       <div class="flex flex-col gap-3 py-4 md:py-8">
         <div>
-          <span class="block text-sm font-bold">コミュニティの活性化に自ら貢献していますか？</span>
+          <span class="block text-sm font-bold">コミュニティの活性化に自ら貢献しましたか？</span>
         </div>
 
         <p class="text-gray-600"><?php echo $community?></p>
@@ -96,7 +96,7 @@ fclose($file); //ファイル閉じる
       <!-- review - start -->
       <div class="flex flex-col gap-3 py-4 md:py-8">
         <div>
-          <span class="block text-sm font-bold">クラスメイトに対して改善してほしい点があれば教えてください。</span>
+          <span class="block text-sm font-bold">昨日のあなたより、今日のあなたができるようになったことはなんですか？</span>
         </div>
 
         <p class="text-gray-600"><?php echo $improvement?></p>
@@ -106,7 +106,7 @@ fclose($file); //ファイル閉じる
       <!-- review - start -->
       <div class="flex flex-col gap-3 py-4 md:py-8">
         <div>
-          <span class="block text-sm font-bold">クラスメイトに対して特に感謝していることや、良かった点があれば教えてください。</span>
+          <span class="block text-sm font-bold">周りの人に感謝することや、良かった点を教えてください。</span>
         </div>
 
         <p class="text-gray-600"><?php echo $thanks?></p>
@@ -116,7 +116,7 @@ fclose($file); //ファイル閉じる
       <!-- review - start -->
       <div class="flex flex-col gap-3 py-4 md:py-8">
         <div>
-          <span class="block text-sm font-bold">クラス全体の雰囲気を良くするために、どのような取り組みが有効だと思いますか？</span>
+          <span class="block text-sm font-bold">明日の目標はなんですか？</span>
         </div>
         <p class="text-gray-600"><?php echo $message?></p>
       </div>
