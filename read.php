@@ -47,12 +47,12 @@
         <h2 class="mb-4 text-center text-2xl font-bold md:mb-8 lg:text-3xl xl:mb-12">LAB17 みんなのギーク日記</h2>
 
         <div class="mx-auto max-w-screen-sm mb-8">
-            <p class="text-sm">質問１ CREDOに則り、自らのチカラでセカイを変えようとする全ての挑戦を讃えましたか？</p>
-            <p class="text-sm">質問２ コミュニティの活性化に自ら貢献しましたか？</p>
-            <p class="text-sm">質問３ 昨日のあなたより、今日のあなたができるようになったことはなんですか？</p>
-            <p class="text-sm">質問４ 周りの人に感謝することや、良かった点を教えてください。</p>
-            <p class="text-sm">質問５ 明日の目標はなんですか？</p>
-            <p class="text-sm">質問６ コスモは燃えていますか？</p>
+            <p class="text-sm mb-0.5">質問１ CREDOに則り、自らのチカラでセカイを変えようとする全ての挑戦を讃えましたか？</p>
+            <p class="text-sm mb-0.5">質問２ コミュニティの活性化に自ら貢献しましたか？</p>
+            <p class="text-sm mb-0.5">質問３ 昨日のあなたより、今日のあなたができるようになったことはなんですか？</p>
+            <p class="text-sm mb-0.5">質問４ 周りの人に感謝することや、良かった点を教えてください。</p>
+            <p class="text-sm mb-0.5">質問５ 明日の目標はなんですか？</p>
+            <p class="text-sm mb-0.5">質問６ コスモは燃えていますか？</p>
         </div>
 
         <div class="w-full mx-auto overflow-auto">
