@@ -32,7 +32,7 @@
 
       <!-- nav - start -->
       <nav class="gap-12">
-        <a href="./read.php" class="text-lg transition duration-100 hover:text-gray-500 active:text-gray-700">みんなの日記</a>
+        <a href="./read.php" class="py-2 px-5 bg-sky-500 text-white font-semibold rounded-full shadow-md hover:bg-sky-700 focus:outline-none focus:ring focus:ring-sky-400 focus:ring-opacity-75">みんなの日記</a>
       </nav>
       <!-- nav - end -->
 

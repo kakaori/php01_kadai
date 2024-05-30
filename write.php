@@ -48,7 +48,7 @@ fclose($file); //ファイル閉じる
 
       <!-- nav - start -->
       <nav class="gap-12">
-        <a href="./read.php" class="text-lg transition duration-100 hover:text-gray-500 active:text-gray-700">みんなの日記</a>
+        <a href="./read.php" class="py-2 px-5 bg-sky-500 text-white font-semibold rounded-full shadow-md hover:bg-sky-700 focus:outline-none focus:ring focus:ring-sky-400 focus:ring-opacity-75">みんなの日記</a>
       </nav>
       <!-- nav - end -->
 
@@ -59,7 +59,7 @@ fclose($file); //ファイル閉じる
 
 <div class="bg-white">
   <div class="mx-auto max-w-screen-md px-4 md:px-8">
-    <p class="mb-4 text-center text-xl font-bold md:mb-6 lg:text-xl">LAB17 ギーク日記</p>
+    <p class="mb-4 text-center text-xl text-sky-500 font-bold md:mb-6 lg:text-xl">LAB17 ギーク日記</p>
     <h2 class="mb-4 text-center text-2xl font-bold md:mb-8 lg:text-3xl xl:mb-12">送信が完了しました</h2>
     <span class="block text-sm text-gray-500">回答日時：<?php echo $date?></span>
 
