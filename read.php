@@ -1,6 +1,6 @@
 <?PHP 
 // エラーを出力する
-// ini_set( 'display_errors', 1 );
+ini_set( 'display_errors', 1 );
 
 // //ファイルを変数に格納
 // $filename = 'data/data.txt';
@@ -66,6 +66,7 @@
         $fp = fopen($filename, 'r');
 
         echo "<table class='mb-4 table-auto w-full text-left whitespace-no-wrap'>";
+
         echo "<tr>
         <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl'>回答日時</th>
         <th class='whitespace-nowrap px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100'>ニックネーム</th>
@@ -87,16 +88,13 @@
             //その数分for文を回す
 
             //ファイルを読み込んだ変数を出力
-            echo "<tr>
-            <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[0]</th>
-            <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[1]</td>
-            <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[2]</td>
-            <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[3]</td>
-            <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[4]</td>
-            <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[5]</td>
-            <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[6]</td>
-            <td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[7]</td>
-            </tr>";
+            echo "<tr>";
+
+            for($i = 0; $i < count($txtarray); $i++){
+              echo "<td class='border-t-2 border-gray-200 px-4 py-3'>$txtarray[$i]</th>";
+            };
+
+            echo "</tr>";
         }
         echo "</table>";
 
